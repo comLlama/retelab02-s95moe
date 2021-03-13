@@ -258,7 +258,7 @@ graph
 				text	"
 	specification = null
 	namespace = null
-	name = S
+	name = Black
 	documentation = 
 	orthogonal = false
 	simple = true
