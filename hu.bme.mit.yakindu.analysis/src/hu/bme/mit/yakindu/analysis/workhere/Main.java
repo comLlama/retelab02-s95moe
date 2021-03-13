@@ -1,10 +1,13 @@
 package hu.bme.mit.yakindu.analysis.workhere;
 
+import java.util.List;
+
 import org.eclipse.emf.common.util.TreeIterator;
 import org.eclipse.emf.ecore.EObject;
 import org.junit.Test;
 import org.yakindu.sct.model.sgraph.State;
 import org.yakindu.sct.model.sgraph.Statechart;
+import org.yakindu.sct.model.sgraph.Transition;
 
 import hu.bme.mit.model2gml.Model2GML;
 import hu.bme.mit.yakindu.analysis.modelmanager.ModelManager;
@@ -29,7 +32,11 @@ public class Main {
 			EObject content = iterator.next();
 			if(content instanceof State) {
 				State state = (State) content;
-				System.out.println(state.getName());
+				List<Transition> transitions = state.getOutgoingTransitions();
+				if (!transitions.isEmpty()) {
+					for (Transition t : transitions)
+						System.out.println(state.getName() + " -> " + t.getTarget().getName());
+				} else System.out.println(state.getName());
 			}
 		}
 		
