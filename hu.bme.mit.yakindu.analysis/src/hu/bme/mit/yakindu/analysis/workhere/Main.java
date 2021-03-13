@@ -36,7 +36,7 @@ public class Main {
 				if (!transitions.isEmpty()) {
 					for (Transition t : transitions)
 						System.out.println(state.getName() + " -> " + t.getTarget().getName());
-				} else System.out.println(state.getName());
+				} else System.out.println(state.getName() + " state has no transitions leading outwards.");
 			}
 		}
 		
