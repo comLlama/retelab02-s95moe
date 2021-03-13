@@ -28,11 +28,14 @@ public class Main {
 		// Reading model
 		Statechart s = (Statechart) root;
 		TreeIterator<EObject> iterator = s.eAllContents();
+		int nameless_state_number = 0;
 		while (iterator.hasNext()) {
 			EObject content = iterator.next();
 			if(content instanceof State) {
 				State state = (State) content;
 				List<Transition> transitions = state.getOutgoingTransitions();
+				if (state.getName().isEmpty())
+					System.out.println("This state has no name. Suggested name: State-" + Integer.toString(nameless_state_number++));
 				if (!transitions.isEmpty()) {
 					for (Transition t : transitions)
 						System.out.println(state.getName() + " -> " + t.getTarget().getName());
