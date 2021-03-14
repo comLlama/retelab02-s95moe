@@ -1422,3 +1422,174 @@ Binding(CTRL+D,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.yakindu.sct.builder.SCTBuilder 2 0 2021-03-14 01:50:00.970
+!MESSAGE Cannot generate Code for Statechart /hu.bme.mit.yakindu.analysis/model_input/example.sct. The file contains errors.
+
+!ENTRY org.eclipse.help 4 0 2021-03-14 02:00:21.948
+!MESSAGE Required attribute "label" missing from "topic" element in "/org.yakindu.sct.doc.user/help/user-guide/c-domain-toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2021-03-14 02:00:22.006
+!MESSAGE Required attribute "label" missing from "topic" element in "/org.yakindu.sct.doc.user/help/user-guide/scxml_domain-toc.xml" (skipping element)
+
+!ENTRY org.yakindu.sct.builder.SCTBuilder 2 0 2021-03-14 02:01:57.495
+!MESSAGE Cannot execute Genmodel /hu.bme.mit.yakindu.analysis/model_input/example.sgen. The file contains errors.
+
+!ENTRY org.yakindu.sct.builder.SCTBuilder 2 0 2021-03-14 02:02:13.205
+!MESSAGE Cannot execute Genmodel /hu.bme.mit.yakindu.analysis/model_input/example.sgen. The file contains errors.
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:28:56.757
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:24.039
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:25.483
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:27.249
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:31.581
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:35.912
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:38.788
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:42.677
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:31:44.799
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:32:22.834
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:34:27.254
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.debug.core 4 125 2021-03-14 03:34:56.365
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Broken pipe
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:354)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:123)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.lambda$0(InputStreamMonitor.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:834)
