@@ -32,26 +32,20 @@ public class Main {
 		Statechart s = (Statechart) root;
 		TreeIterator<EObject> iterator = s.eAllContents();
 		int nameless_state_number = 0;
+		System.out.println("public static void print(IExampleStatemachine s) {");
 		while (iterator.hasNext()) {
 			EObject content = iterator.next();
-			/* if(content instanceof State) {
-				State state = (State) content;
-				List<Transition> transitions = state.getOutgoingTransitions();
-				if (state.getName().isEmpty())
-					System.out.println("This state has no name. Suggested name: State-" + Integer.toString(nameless_state_number++));
-				if (!transitions.isEmpty()) {
-					for (Transition t : transitions)
-						System.out.println(state.getName() + " -> " + t.getTarget().getName());
-				} else System.out.println(state.getName() + " state has no transitions leading outwards.");
-			} */
 			if (content instanceof VariableDefinition) {
 				VariableDefinition variable = (VariableDefinition) content;
-				System.out.println(variable.getName() + " (variable)");
-			} else if (content instanceof EventDefinition) {
+				String name = variable.getName().substring(0, 1).toUpperCase() + variable.getName().substring(1);
+				System.out.println("\tSystem.out.println(\"" + name.charAt(0) + " = \" + s.getSCInterface().get" + name + "());");
+			} /*else if (content instanceof EventDefinition) {
 				EventDefinition event = (EventDefinition) content;
-				if (event.getDirection() == Direction.IN) System.out.println(event.getName() + " (event)");
-			}
+				if (event.getDirection() == Direction.IN) 
+					;
+			}*/
 		}
+		System.out.println("}");
 		
 		// Transforming the model into a graph representation
 		String content = model2gml.transform(root);
