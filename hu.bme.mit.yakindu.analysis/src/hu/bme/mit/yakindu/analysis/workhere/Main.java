@@ -65,7 +65,9 @@ public class Main {
 			}
 		}
 		
-		System.out.println("			}\r\n" + 
+		System.out.println("				default:\r\n" + 
+				"					break;\r\n" +
+				"			}\r\n" + 
 				"			s.runCycle();\r\n" + 
 				"			print(s);\r\n" + 
 				"		}\r\n" + 
